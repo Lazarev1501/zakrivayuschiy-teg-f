@@ -13,4 +13,36 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-family: var(--main-font);
+  font-variation-settings: "wght" var(--font-weight-text);
+  background-image: var(--bg-image);
+  background-position: fixed;
+  background-size: cover;
+}
+
+.header {
+  padding: 100px 0;
+  
+}
+
+.header__main {
+  padding: 122px 16px;
+  border: 2px solid rgba(0,0,0,1);
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  background-color: rgba(255, 255, 255, 1);
+  gap:20px;
+}
+
+.header__main_title {
+  font-family: var(--accent-font);
+  font-size: 49px;
+}
+
+.header__main_subtitle {
+  display: flex;
+  font-family: var(--accent-font);
+  font-size: 14px;
+  justify-content: center;
 }
