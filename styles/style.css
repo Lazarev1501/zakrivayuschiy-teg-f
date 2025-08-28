@@ -6,7 +6,10 @@
   background-image: var(--bg-image);
   background-attachment: fixed;
   background-size: cover;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
