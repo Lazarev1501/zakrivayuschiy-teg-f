@@ -6,6 +6,7 @@
   background-image: var(--bg-image);
   background-attachment: fixed;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .header {
