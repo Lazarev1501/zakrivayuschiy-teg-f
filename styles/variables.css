@@ -1,6 +1,6 @@
 :root {
   --main-font: Inter-Variable, Arial, sans-serif;
-  --accent-font: PressStart2P, serif;
+  --accent-font: PressStart2P, Impact, serif;
   --font-weight-text: 410;
   --font-weight-title: 715;
   --bg-image: repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px), repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px), linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
@@ -12,5 +12,4 @@
   --animation-fill-color: rgba(255, 0, 0, 1);
   --sparks-color: rgba(255, 0, 0, 1);
   --an-heart-color: #000;
-  --an-contour-color: ;
 }
